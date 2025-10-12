@@ -81,6 +81,18 @@ The system uses four main tables:
 
 ---
 
+## 🖼️ Screenshots
+
+| Login Screen                           | Users                                      |
+| -------------------------------------- | ------------------------------------------ |
+| ![Login](Screenshots/image1_login.png) | ![Users](Screenshots/image2_User_Form.png) |
+
+| Patient Form                                    | Login Form                             |
+| ----------------------------------------------- | -------------------------------------- |
+| ![Patients](Screenshots/image3Patient_Form.png) | ![Login](Screenshots/image1_login.png) |
+
+---
+
 ## 👨‍💻 Developer
 
 Developed individually by **[Wael Mohammed](https://www.linkedin.com/in/wael-mohammed-sharif)**  

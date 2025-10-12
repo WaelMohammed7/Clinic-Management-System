@@ -6,3 +6,11 @@ C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\
 C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\ClinicManagementSystemDataAccess\obj\Debug\ClinicManagementSystemDataAccess.pdb
 C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\ClinicManagementSystemDataAccess\bin\Debug\Guna.UI2.dll
 C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\ClinicManagementSystemDataAccess\obj\Debug\ClinicMa.FC2C91BF.Up2Date
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\ClinicManagementSystemDataAccess\obj\Debug\ClinicManagementSystemDataAccess.csproj.AssemblyReference.cache
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\ClinicManagementSystemDataAccess\obj\Debug\ClinicManagementSystemDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\ClinicManagementSystemDataAccess\obj\Debug\ClinicManagementSystemDataAccess.dll
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\ClinicManagementSystemDataAccess\obj\Debug\ClinicManagementSystemDataAccess.pdb
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\ClinicManagementSystemDataAccess\bin\Debug\ClinicManagementSystemDataAccess.dll
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\ClinicManagementSystemDataAccess\bin\Debug\ClinicManagementSystemDataAccess.pdb
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\ClinicManagementSystemDataAccess\bin\Debug\Guna.UI2.dll
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\ClinicManagementSystemDataAccess\obj\Debug\ClinicMa.FC2C91BF.Up2Date

@@ -19,3 +19,24 @@ C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\
 C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\obj\Debug\ClinicMa.331FCBA1.Up2Date
 C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\obj\Debug\Clinic Management System.exe.config
 C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\obj\Debug\Clinic_Management_System.Patients.frmAddUpdatePatient.resources
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\Clinic Management System\bin\Debug\Clinic Management System.exe.config
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\Clinic Management System\bin\Debug\Clinic Management System.exe
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\Clinic Management System\bin\Debug\Clinic Management System.pdb
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\Clinic Management System\bin\Debug\ClinicManagementSystemAcesseBussin.dll
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\Clinic Management System\bin\Debug\Guna.UI2.dll
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\Clinic Management System\bin\Debug\ClinicManagementSystemDataAccess.dll
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\Clinic Management System\bin\Debug\ClinicManagementSystemAcesseBussin.pdb
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\Clinic Management System\bin\Debug\ClinicManagementSystemDataAccess.pdb
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\Clinic Management System\obj\Debug\ClinicManagementSystem.csproj.AssemblyReference.cache
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\Clinic Management System\obj\Debug\Clinic Management System.exe.config
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\Clinic Management System\obj\Debug\Clinic_Management_System.Patients.frmAddUpdatePatient.resources
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\Clinic Management System\obj\Debug\Clinic_Management_System.frmLaisPatientManagement.resources
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\Clinic Management System\obj\Debug\Clinic_Management_System.frmMainScreen.resources
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\Clinic Management System\obj\Debug\Clinic_Management_System.frmLogin.resources
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\Clinic Management System\obj\Debug\Clinic_Management_System.frmUserManagement.resources
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\Clinic Management System\obj\Debug\Clinic_Management_System.Properties.Resources.resources
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\Clinic Management System\obj\Debug\ClinicManagementSystem.csproj.GenerateResource.cache
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\Clinic Management System\obj\Debug\ClinicManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\Clinic Management System\obj\Debug\ClinicMa.331FCBA1.Up2Date
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\Clinic Management System\obj\Debug\Clinic Management System.exe
+C:\Users\XPRISTO\Videos\Wael\Projects_Wael\ProjectsC\مشاريع في الانتظار\Clinic Management System\Clinic Management System\obj\Debug\Clinic Management System.pdb

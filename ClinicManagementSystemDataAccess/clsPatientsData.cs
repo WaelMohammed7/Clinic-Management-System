@@ -92,7 +92,7 @@ namespace ClinicManagementSystemDataAccess
 
                         using(SqlDataReader reader = command.ExecuteReader())
                         {
-                            rowAffected = reader.HasRows;
+                           // rowAffected = reader.HasRows;
                         }
 
 
@@ -103,6 +103,8 @@ namespace ClinicManagementSystemDataAccess
             {
                 
             }
+            return rowAffected;
         }
+        
     }
 }

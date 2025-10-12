@@ -16,3 +16,4 @@
 # SQL Server Database Files
 *.mdf
 *.ldf
+!packages/

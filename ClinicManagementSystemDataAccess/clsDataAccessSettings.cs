@@ -8,6 +8,6 @@ namespace ClinicManagementSystemDataAccess
 {
     internal class clsDataAccessSettings
     {
-        public static string ConnectionString = "Server=.;Database=DVLD;Integrated Security=True;";
+        public static string ConnectionString = "Server=.;Database=ClinicManagementSystem;User ID = sa; Password=123456;";
     }
 }
