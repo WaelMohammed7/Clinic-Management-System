@@ -85,11 +85,11 @@ The system uses four main tables:
 
 | Login Screen                           | Users                                      |
 | -------------------------------------- | ------------------------------------------ |
-| ![Login](screenshots/image1_login.png) | ![Users](Screenshots/image2_User_Form.png) |
+| ![Login](screenshots/image1_login.png) | ![Users](Screenshots/image2_user_form.png) |
 
 | Patient Form                                    | Login Form                             |
 | ----------------------------------------------- | -------------------------------------- |
-| ![Patients](Screenshots/image3Patient_Form.png) | ![Login](Screenshots/image1_login.png) |
+| ![Patients](screenshots/image3patient_form.png) | ![Login](Screenshots/image1_login.png) |
 
 ---
 
