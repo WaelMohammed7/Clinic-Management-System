@@ -1,0 +1,13 @@
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\bin\Debug\Clinic Management System.exe.config
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\bin\Debug\Clinic Management System.exe
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\bin\Debug\Clinic Management System.pdb
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\bin\Debug\Guna.UI2.dll
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\obj\Debug\Clinic Management System.csproj.AssemblyReference.cache
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\obj\Debug\Clinic_Management_System.Form1.resources
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\obj\Debug\Clinic_Management_System.Properties.Resources.resources
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\obj\Debug\Clinic Management System.csproj.GenerateResource.cache
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\obj\Debug\Clinic Management System.csproj.CoreCompileInputs.cache
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\obj\Debug\Clinic M.C6172C23.Up2Date
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\obj\Debug\Clinic Management System.exe
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\obj\Debug\Clinic Management System.pdb
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\obj\Debug\Clinic_Management_System.frmUserManagement.resources

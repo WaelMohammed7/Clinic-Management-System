@@ -1,0 +1,19 @@
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\bin\Release\Clinic Management System.exe.config
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\bin\Release\Clinic Management System.exe
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\bin\Release\Clinic Management System.pdb
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\bin\Release\ClinicManagementSystemAcesseBussin.dll
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\bin\Release\Guna.UI2.dll
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\bin\Release\ClinicManagementSystemDataAccess.dll
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\bin\Release\ClinicManagementSystemAcesseBussin.pdb
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\bin\Release\ClinicManagementSystemDataAccess.pdb
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\obj\Release\ClinicManagementSystem.csproj.AssemblyReference.cache
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\obj\Release\Clinic_Management_System.frmLaisPatientManagement.resources
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\obj\Release\Clinic_Management_System.frmMainScreen.resources
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\obj\Release\Clinic_Management_System.frmLogin.resources
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\obj\Release\Clinic_Management_System.frmUserManagement.resources
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\obj\Release\Clinic_Management_System.Properties.Resources.resources
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\obj\Release\ClinicManagementSystem.csproj.GenerateResource.cache
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\obj\Release\ClinicManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\obj\Release\ClinicMa.331FCBA1.Up2Date
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\obj\Release\Clinic Management System.exe
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\Clinic Management System\obj\Release\Clinic Management System.pdb

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35728.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicManagementSystem", "Clinic Management System\ClinicManagementSystem.csproj", "{6A870C23-F3D2-40E3-A17E-767E883EC3FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicManagementSystemDataAccess", "ClinicManagementSystemDataAccess\ClinicManagementSystemDataAccess.csproj", "{98C4A274-1A48-4A08-8637-714186986E22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicManagementSystemAcesseBussin", "ClinicManagementSystemAcesseBussin\ClinicManagementSystemAcesseBussin.csproj", "{9550588E-103E-41D7-A7F4-EFCB9C3FD382}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A870C23-F3D2-40E3-A17E-767E883EC3FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A870C23-F3D2-40E3-A17E-767E883EC3FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A870C23-F3D2-40E3-A17E-767E883EC3FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A870C23-F3D2-40E3-A17E-767E883EC3FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98C4A274-1A48-4A08-8637-714186986E22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98C4A274-1A48-4A08-8637-714186986E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98C4A274-1A48-4A08-8637-714186986E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98C4A274-1A48-4A08-8637-714186986E22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9550588E-103E-41D7-A7F4-EFCB9C3FD382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9550588E-103E-41D7-A7F4-EFCB9C3FD382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9550588E-103E-41D7-A7F4-EFCB9C3FD382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9550588E-103E-41D7-A7F4-EFCB9C3FD382}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

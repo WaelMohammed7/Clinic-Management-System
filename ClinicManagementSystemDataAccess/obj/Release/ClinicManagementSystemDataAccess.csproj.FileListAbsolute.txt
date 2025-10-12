@@ -1,0 +1,6 @@
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\ClinicManagementSystemDataAccess\bin\Release\ClinicManagementSystemDataAccess.dll
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\ClinicManagementSystemDataAccess\bin\Release\ClinicManagementSystemDataAccess.pdb
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\ClinicManagementSystemDataAccess\obj\Release\ClinicManagementSystemDataAccess.csproj.AssemblyReference.cache
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\ClinicManagementSystemDataAccess\obj\Release\ClinicManagementSystemDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\ClinicManagementSystemDataAccess\obj\Release\ClinicManagementSystemDataAccess.dll
+C:\Users\XPRISTO\Videos\Wael\Projects Wael\Projects.c#\Clinic Management System\ClinicManagementSystemDataAccess\obj\Release\ClinicManagementSystemDataAccess.pdb
