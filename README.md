@@ -83,13 +83,13 @@ The system uses four main tables:
 
 ## 🖼️ Screenshots
 
-| Login Screen                           | Users                                      |
-| -------------------------------------- | ------------------------------------------ |
-| ![Login](screenshots/image1_login.png) | ![Users](Screenshots/image2_user_form.png) |
+| Login Screen                           | Users                                     |
+| -------------------------------------- | ----------------------------------------- |
+| ![Login](screenshots/image1_login.png) | ![Users](Screenshots/image2_userform.png) |
 
 | Patient Form                                    | Login Form                             |
 | ----------------------------------------------- | -------------------------------------- |
-| ![Patients](screenshots/image3patient_form.png) | ![Login](Screenshots/image1_login.png) |
+| ![Patients](screenshots/image3_patientform.png) | ![Login](Screenshots/image1_login.png) |
 
 ---
 
