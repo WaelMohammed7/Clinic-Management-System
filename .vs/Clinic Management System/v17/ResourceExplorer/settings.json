@@ -1,1 +1,17 @@
-{"ShowEmptyProjects":false,"CustomColumnOrderings":{"name":0,"file-path":1,"file-name":2,"neutral-value":3,"neutral-comment":4,"type":5},"ShowValidationErrors":true,"SelectedResourceGroupsByProject":{"C:\\Users\\XPRISTO\\Videos\\Wael\\Projects Wael\\Projects.c#\\Clinic Management System\\ClinicManagementSystemDataAccess\\ClinicManagementSystemDataAccess.csproj":[],"C:\\Users\\XPRISTO\\Videos\\Wael\\Projects Wael\\Projects.c#\\Clinic Management System\\ClinicManagementSystemAcesseBussin\\ClinicManagementSystemAcesseBussin.csproj":[],"C:\\Users\\XPRISTO\\Videos\\Wael\\Projects Wael\\Projects.c#\\Clinic Management System\\Clinic Management System\\ClinicManagementSystem.csproj":[]},"VisibleColumnKeys":["name","neutral-value","neutral-comment"]}
+{
+  "ShowEmptyProjects": false,
+  "SelectedGroups": [],
+  "ExpandedProjects": [],
+  "EnableSpellChecker": true,
+  "ColumnOrder": [
+    "name",
+    "type",
+    "neutral-value",
+    "neutral-comment"
+  ],
+  "VisibleColumnKeys": [
+    "name",
+    "neutral-comment",
+    "neutral-value"
+  ]
+}

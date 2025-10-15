@@ -32,7 +32,7 @@ namespace ClinicManagementSystemDataAccess
                             {
                                 dt.Load(reader);
                             }
-                          
+
                         }
                     }
                     catch (Exception ex)
@@ -46,17 +46,17 @@ namespace ClinicManagementSystemDataAccess
 
         }
 
-       public static bool DeletePatient(int PatientID)
+        public static bool DeletePatient(int PatientID)
         {
             int rowAffected = 0;
 
             try
             {
-                using(SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
+                using (SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
                 {
                     string query = "SP_DeletePatient";
 
-                    using(SqlCommand command = new SqlCommand(query, connection))
+                    using (SqlCommand command = new SqlCommand(query, connection))
                     {
                         command.CommandType = CommandType.StoredProcedure;
 
@@ -68,43 +68,65 @@ namespace ClinicManagementSystemDataAccess
                     }
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 clsEventLog.LogOrCreateEventSoures(ex.Message);
             }
 
-            return (rowAffected >0);
+            return (rowAffected > 0);
         }
 
-        public static int AddNewPatient(int PatientID)
+        public static int AddNewPatient(string FirstName, string LastName, string Phone, string Email, string Address,
+                                            string MedicalNotes, DateTime DateOfBirth, short Gendor, string ImagePath)
         {
-            int rowAffected = 0;
+            int PatientID = -1;
 
             try
             {
-                using(SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
+                using (SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
                 {
-                    string Quer = "";
-                    using(SqlCommand command = new SqlCommand(Quer, connection))
+                    string Quer = "SP_AddNewPatient";
+                    using (SqlCommand command = new SqlCommand(Quer, connection))
                     {
-                        command.Parameters.AddWithValue(@"", PatientID);
+                        command.Parameters.AddWithValue(@"FirstName", FirstName);
+                        command.Parameters.AddWithValue(@"LastName", LastName);
+
+                        command.Parameters.AddWithValue(@"Phone", Phone);
+
+                        if (Email != "" && Email != null)
+                            command.Parameters.AddWithValue(@"Email", Email);
+                        else
+                            command.Parameters.AddWithValue(@"Email", System.DBNull.Value);
+
+                        command.Parameters.AddWithValue(@"Address", Address);
+
+                        command.Parameters.AddWithValue(@"MedicalNotes", MedicalNotes);
+
+                        command.Parameters.AddWithValue(@"DateOfBirth", DateOfBirth);
+                        command.Parameters.AddWithValue(@"Gendor", Gendor);
+
+                        if (ImagePath != "" && ImagePath != null)
+                            command.Parameters.AddWithValue(@"ImagePath", ImagePath);
+                        else
+                            command.Parameters.AddWithValue(@"ImagePath", System.DBNull.Value);
+
                         connection.Open();
-
-                        using(SqlDataReader reader = command.ExecuteReader())
+                        object result = command.ExecuteScalar();
+                        if (result != null && int.TryParse(result.ToString(), out int insertedID))
                         {
-                           // rowAffected = reader.HasRows;
+                            PatientID = insertedID;
                         }
-
 
                     }
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                
+                clsclsEventLog.LogOrCreateEventSoures(ex.Message);
             }
-            return rowAffected;
+
+            return PatientID;
         }
-        
+
     }
 }

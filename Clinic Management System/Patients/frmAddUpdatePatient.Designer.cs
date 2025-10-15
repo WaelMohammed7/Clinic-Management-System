@@ -33,32 +33,39 @@
             this.llRemoveImage = new System.Windows.Forms.LinkLabel();
             this.llSetImage = new System.Windows.Forms.LinkLabel();
             this.txtMedicalNotes = new System.Windows.Forms.TextBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.pbPatientImage = new System.Windows.Forms.PictureBox();
             this.txtAddress = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtPhone = new System.Windows.Forms.TextBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.rbFemale = new System.Windows.Forms.RadioButton();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.rbMale = new System.Windows.Forms.RadioButton();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtLastName = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.txtFirstName = new System.Windows.Forms.TextBox();
+            this.dtpDateOfBirth = new System.Windows.Forms.DateTimePicker();
+            this.label1 = new System.Windows.Forms.Label();
             this.gbutClose = new Guna.UI2.WinForms.Guna2GradientButton();
             this.gbutSave = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pbPatientImage = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtPatientID = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPatientImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -67,6 +74,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitle
@@ -74,7 +82,7 @@
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.lblTitle.Location = new System.Drawing.Point(354, 9);
+            this.lblTitle.Location = new System.Drawing.Point(356, 19);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(173, 28);
             this.lblTitle.TabIndex = 0;
@@ -82,6 +90,9 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.pictureBox7);
+            this.panel1.Controls.Add(this.dtpDateOfBirth);
             this.panel1.Controls.Add(this.llRemoveImage);
             this.panel1.Controls.Add(this.llSetImage);
             this.panel1.Controls.Add(this.txtMedicalNotes);
@@ -110,16 +121,16 @@
             this.panel1.Controls.Add(this.txtFirstName);
             this.panel1.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.ForeColor = System.Drawing.Color.White;
-            this.panel1.Location = new System.Drawing.Point(13, 40);
+            this.panel1.Location = new System.Drawing.Point(12, 93);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(861, 304);
+            this.panel1.Size = new System.Drawing.Size(861, 317);
             this.panel1.TabIndex = 4;
             // 
             // llRemoveImage
             // 
             this.llRemoveImage.AutoSize = true;
             this.llRemoveImage.Font = new System.Drawing.Font("Segoe UI Black", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.llRemoveImage.Location = new System.Drawing.Point(713, 246);
+            this.llRemoveImage.Location = new System.Drawing.Point(676, 283);
             this.llRemoveImage.Name = "llRemoveImage";
             this.llRemoveImage.Size = new System.Drawing.Size(77, 21);
             this.llRemoveImage.TabIndex = 25;
@@ -130,7 +141,7 @@
             // 
             this.llSetImage.AutoSize = true;
             this.llSetImage.Font = new System.Drawing.Font("Segoe UI Black", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.llSetImage.Location = new System.Drawing.Point(713, 225);
+            this.llSetImage.Location = new System.Drawing.Point(676, 262);
             this.llSetImage.Name = "llSetImage";
             this.llSetImage.Size = new System.Drawing.Size(88, 21);
             this.llSetImage.TabIndex = 24;
@@ -146,16 +157,6 @@
             this.txtMedicalNotes.Size = new System.Drawing.Size(405, 29);
             this.txtMedicalNotes.TabIndex = 23;
             // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::Clinic_Management_System.Properties.Resources.stethoscope;
-            this.pictureBox8.Location = new System.Drawing.Point(176, 133);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(37, 30);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 22;
-            this.pictureBox8.TabStop = false;
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -166,16 +167,6 @@
             this.label8.Size = new System.Drawing.Size(154, 28);
             this.label8.TabIndex = 21;
             this.label8.Text = "Medical Notes:";
-            // 
-            // pbPatientImage
-            // 
-            this.pbPatientImage.Image = global::Clinic_Management_System.Properties.Resources.Male_5121;
-            this.pbPatientImage.Location = new System.Drawing.Point(696, 96);
-            this.pbPatientImage.Name = "pbPatientImage";
-            this.pbPatientImage.Size = new System.Drawing.Size(114, 126);
-            this.pbPatientImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbPatientImage.TabIndex = 20;
-            this.pbPatientImage.TabStop = false;
             // 
             // txtAddress
             // 
@@ -205,16 +196,6 @@
             this.txtPhone.Size = new System.Drawing.Size(182, 29);
             this.txtPhone.TabIndex = 17;
             // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::Clinic_Management_System.Properties.Resources.call_321;
-            this.pictureBox6.Location = new System.Drawing.Point(602, 61);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(37, 30);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 16;
-            this.pictureBox6.TabStop = false;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -239,16 +220,6 @@
             this.rbFemale.Text = "Female";
             this.rbFemale.UseVisualStyleBackColor = true;
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::Clinic_Management_System.Properties.Resources.Female_512;
-            this.pictureBox5.Location = new System.Drawing.Point(333, 58);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(37, 30);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 13;
-            this.pictureBox5.TabStop = false;
-            // 
             // rbMale
             // 
             this.rbMale.AutoSize = true;
@@ -261,36 +232,6 @@
             this.rbMale.TabStop = true;
             this.rbMale.Text = "Male";
             this.rbMale.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Clinic_Management_System.Properties.Resources.Address_321;
-            this.pictureBox4.Location = new System.Drawing.Point(176, 169);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(37, 30);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 11;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Clinic_Management_System.Properties.Resources.Email_321;
-            this.pictureBox3.Location = new System.Drawing.Point(176, 98);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(37, 30);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 10;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Clinic_Management_System.Properties.Resources.Man_3211;
-            this.pictureBox2.Location = new System.Drawing.Point(176, 64);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(37, 30);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 9;
-            this.pictureBox2.TabStop = false;
             // 
             // label6
             // 
@@ -324,16 +265,6 @@
             this.label4.Size = new System.Drawing.Size(87, 28);
             this.label4.TabIndex = 6;
             this.label4.Text = "Gendor:";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Clinic_Management_System.Properties.Resources.Man_321;
-            this.pictureBox1.Location = new System.Drawing.Point(176, 28);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(37, 30);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
             // 
             // label3
             // 
@@ -386,6 +317,28 @@
             this.txtFirstName.Size = new System.Drawing.Size(182, 29);
             this.txtFirstName.TabIndex = 1;
             // 
+            // dtpDateOfBirth
+            // 
+            this.dtpDateOfBirth.CustomFormat = "dd/M/yyyy";
+            this.dtpDateOfBirth.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpDateOfBirth.Location = new System.Drawing.Point(663, 98);
+            this.dtpDateOfBirth.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
+            this.dtpDateOfBirth.Name = "dtpDateOfBirth";
+            this.dtpDateOfBirth.Size = new System.Drawing.Size(182, 29);
+            this.dtpDateOfBirth.TabIndex = 97;
+            this.dtpDateOfBirth.Value = new System.DateTime(2000, 12, 31, 0, 0, 0, 0);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.label1.Location = new System.Drawing.Point(437, 95);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(145, 28);
+            this.label1.TabIndex = 100;
+            this.label1.Text = "Date Of Birth:";
+            // 
             // gbutClose
             // 
             this.gbutClose.AutoRoundedCorners = true;
@@ -397,7 +350,7 @@
             this.gbutClose.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbutClose.ForeColor = System.Drawing.Color.White;
             this.gbutClose.Image = global::Clinic_Management_System.Properties.Resources.cross_32;
-            this.gbutClose.Location = new System.Drawing.Point(30, 350);
+            this.gbutClose.Location = new System.Drawing.Point(29, 423);
             this.gbutClose.Name = "gbutClose";
             this.gbutClose.Size = new System.Drawing.Size(126, 36);
             this.gbutClose.TabIndex = 25;
@@ -415,20 +368,145 @@
             this.gbutSave.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.gbutSave.ForeColor = System.Drawing.Color.White;
             this.gbutSave.Image = global::Clinic_Management_System.Properties.Resources.Save_32;
-            this.gbutSave.Location = new System.Drawing.Point(732, 350);
+            this.gbutSave.Location = new System.Drawing.Point(731, 423);
             this.gbutSave.Name = "gbutSave";
             this.gbutSave.Size = new System.Drawing.Size(126, 36);
             this.gbutSave.TabIndex = 24;
             this.gbutSave.Text = "Save";
             this.gbutSave.Click += new System.EventHandler(this.gbutSave_Click);
             // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::Clinic_Management_System.Properties.Resources.Calendar_32;
+            this.pictureBox7.Location = new System.Drawing.Point(602, 99);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(31, 26);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 99;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::Clinic_Management_System.Properties.Resources.stethoscope;
+            this.pictureBox8.Location = new System.Drawing.Point(176, 133);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(31, 26);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 22;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pbPatientImage
+            // 
+            this.pbPatientImage.Image = global::Clinic_Management_System.Properties.Resources.Male_5121;
+            this.pbPatientImage.Location = new System.Drawing.Point(663, 133);
+            this.pbPatientImage.Name = "pbPatientImage";
+            this.pbPatientImage.Size = new System.Drawing.Size(114, 126);
+            this.pbPatientImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbPatientImage.TabIndex = 20;
+            this.pbPatientImage.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Clinic_Management_System.Properties.Resources.call_321;
+            this.pictureBox6.Location = new System.Drawing.Point(602, 61);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(31, 26);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 16;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Clinic_Management_System.Properties.Resources.Female_512;
+            this.pictureBox5.Location = new System.Drawing.Point(333, 58);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(31, 26);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 13;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Clinic_Management_System.Properties.Resources.Address_321;
+            this.pictureBox4.Location = new System.Drawing.Point(176, 169);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(31, 26);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 11;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Clinic_Management_System.Properties.Resources.Email_321;
+            this.pictureBox3.Location = new System.Drawing.Point(176, 98);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(31, 26);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 10;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Clinic_Management_System.Properties.Resources.Man_3211;
+            this.pictureBox2.Location = new System.Drawing.Point(176, 64);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(31, 26);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 9;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Clinic_Management_System.Properties.Resources.Man_321;
+            this.pictureBox1.Location = new System.Drawing.Point(176, 28);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(31, 26);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::Clinic_Management_System.Properties.Resources.Man_321;
+            this.pictureBox9.Location = new System.Drawing.Point(188, 53);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(31, 26);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 102;
+            this.pictureBox9.TabStop = false;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.label10.Location = new System.Drawing.Point(12, 53);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(112, 28);
+            this.label10.TabIndex = 101;
+            this.label10.Text = "Patient ID:";
+            // 
+            // txtPatientID
+            // 
+            this.txtPatientID.AutoSize = true;
+            this.txtPatientID.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.txtPatientID.ForeColor = System.Drawing.Color.Red;
+            this.txtPatientID.Location = new System.Drawing.Point(241, 51);
+            this.txtPatientID.Name = "txtPatientID";
+            this.txtPatientID.Size = new System.Drawing.Size(51, 28);
+            this.txtPatientID.TabIndex = 103;
+            this.txtPatientID.Text = "N/A";
+            // 
             // frmAddUpdatePatient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(889, 407);
+            this.ClientSize = new System.Drawing.Size(899, 468);
+            this.Controls.Add(this.txtPatientID);
+            this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.gbutClose);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.gbutSave);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblTitle);
@@ -440,6 +518,7 @@
             this.Load += new System.EventHandler(this.frmAddUpdatePatient_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPatientImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
@@ -448,6 +527,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -485,5 +565,11 @@
         private Guna.UI2.WinForms.Guna2GradientButton gbutClose;
         private System.Windows.Forms.LinkLabel llRemoveImage;
         private System.Windows.Forms.LinkLabel llSetImage;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.DateTimePicker dtpDateOfBirth;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label txtPatientID;
     }
 }

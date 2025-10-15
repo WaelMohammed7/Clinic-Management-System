@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Wael Projects C#\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\Clinic Management System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A870C23-F3D2-40E3-A17E-767E883EC3FB}|Clinic Management System\\ClinicManagementSystem.csproj|c:\\wael projects c#\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\clinic management system\\clinic management system\\users\\frmusermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6A870C23-F3D2-40E3-A17E-767E883EC3FB}|Clinic Management System\\ClinicManagementSystem.csproj|solutionrelative:clinic management system\\users\\frmusermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A870C23-F3D2-40E3-A17E-767E883EC3FB}|Clinic Management System\\ClinicManagementSystem.csproj|C:\\Wael Projects C#\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\Clinic Management System\\clinic management system\\patients\\frmaddupdatepatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A870C23-F3D2-40E3-A17E-767E883EC3FB}|Clinic Management System\\ClinicManagementSystem.csproj|solutionrelative:clinic management system\\patients\\frmaddupdatepatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A870C23-F3D2-40E3-A17E-767E883EC3FB}|Clinic Management System\\ClinicManagementSystem.csproj|C:\\Wael Projects C#\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\Clinic Management System\\clinic management system\\login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6A870C23-F3D2-40E3-A17E-767E883EC3FB}|Clinic Management System\\ClinicManagementSystem.csproj|solutionrelative:clinic management system\\login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A870C23-F3D2-40E3-A17E-767E883EC3FB}|Clinic Management System\\ClinicManagementSystem.csproj|C:\\Wael Projects C#\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\Clinic Management System\\clinic management system\\patients\\frmaddupdatepatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6A870C23-F3D2-40E3-A17E-767E883EC3FB}|Clinic Management System\\ClinicManagementSystem.csproj|solutionrelative:clinic management system\\patients\\frmaddupdatepatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A870C23-F3D2-40E3-A17E-767E883EC3FB}|Clinic Management System\\ClinicManagementSystem.csproj|C:\\Wael Projects C#\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\Clinic Management System\\clinic management system\\frmmainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6A870C23-F3D2-40E3-A17E-767E883EC3FB}|Clinic Management System\\ClinicManagementSystem.csproj|c:\\wael projects c#\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\clinic management system\\clinic management system\\frmmainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6A870C23-F3D2-40E3-A17E-767E883EC3FB}|Clinic Management System\\ClinicManagementSystem.csproj|solutionrelative:clinic management system\\frmmainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A870C23-F3D2-40E3-A17E-767E883EC3FB}|Clinic Management System\\ClinicManagementSystem.csproj|C:\\Wael Projects C#\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\Clinic Management System\\clinic management system\\patients\\frmlaispatientmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6A870C23-F3D2-40E3-A17E-767E883EC3FB}|Clinic Management System\\ClinicManagementSystem.csproj|solutionrelative:clinic management system\\patients\\frmlaispatientmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,71 +34,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmAddUpdatePatient.cs [Design]",
-              "DocumentMoniker": "C:\\Wael Projects C#\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\Clinic Management System\\Clinic Management System\\Patients\\frmAddUpdatePatient.cs",
-              "RelativeDocumentMoniker": "Clinic Management System\\Patients\\frmAddUpdatePatient.cs",
-              "ToolTip": "C:\\Users\\XPRISTO\\Videos\\Wael\\Projects_Wael\\ProjectsC\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\Clinic Management System\\Clinic Management System\\Patients\\frmAddUpdatePatient.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\Users\\XPRISTO\\Videos\\Wael\\Projects_Wael\\ProjectsC\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\Clinic Management System\\Clinic Management System\\Patients\\frmAddUpdatePatient.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T13:09:50.229Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmUserManagement.cs [Design]",
-              "DocumentMoniker": "C:\\Wael Projects C#\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\Clinic Management System\\Clinic Management System\\Users\\frmUserManagement.cs",
-              "RelativeDocumentMoniker": "Clinic Management System\\Users\\frmUserManagement.cs",
-              "ToolTip": "C:\\Wael Projects C#\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\Clinic Management System\\Clinic Management System\\Users\\frmUserManagement.cs [Design]",
-              "RelativeToolTip": "Clinic Management System\\Users\\frmUserManagement.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T13:07:48.898Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "frmMainScreen.cs [Design]",
               "DocumentMoniker": "C:\\Wael Projects C#\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\Clinic Management System\\Clinic Management System\\frmMainScreen.cs",
               "RelativeDocumentMoniker": "Clinic Management System\\frmMainScreen.cs",
-              "ToolTip": "C:\\Users\\XPRISTO\\Videos\\Wael\\Projects_Wael\\ProjectsC\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\Clinic Management System\\Clinic Management System\\frmMainScreen.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\Users\\XPRISTO\\Videos\\Wael\\Projects_Wael\\ProjectsC\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\Clinic Management System\\Clinic Management System\\frmMainScreen.cs [Design]",
+              "ToolTip": "C:\\Wael Projects C#\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\Clinic Management System\\Clinic Management System\\frmMainScreen.cs [Design]",
+              "RelativeToolTip": "Clinic Management System\\frmMainScreen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T13:07:38.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmLaisPatientManagement.cs [Design]",
-              "DocumentMoniker": "C:\\Wael Projects C#\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\Clinic Management System\\Clinic Management System\\Patients\\frmLaisPatientManagement.cs",
-              "RelativeDocumentMoniker": "Clinic Management System\\Patients\\frmLaisPatientManagement.cs",
-              "ToolTip": "C:\\Users\\XPRISTO\\Videos\\Wael\\Projects_Wael\\ProjectsC\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\Clinic Management System\\Clinic Management System\\Patients\\frmLaisPatientManagement.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\Users\\XPRISTO\\Videos\\Wael\\Projects_Wael\\ProjectsC\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\Clinic Management System\\Clinic Management System\\Patients\\frmLaisPatientManagement.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T13:07:18.392Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmLogin.cs [Design]",
-              "DocumentMoniker": "C:\\Wael Projects C#\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\Clinic Management System\\Clinic Management System\\Login\\frmLogin.cs",
-              "RelativeDocumentMoniker": "Clinic Management System\\Login\\frmLogin.cs",
-              "ToolTip": "C:\\Users\\XPRISTO\\Videos\\Wael\\Projects_Wael\\ProjectsC\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\Clinic Management System\\Clinic Management System\\Login\\frmLogin.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\Users\\XPRISTO\\Videos\\Wael\\Projects_Wael\\ProjectsC\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\Clinic Management System\\Clinic Management System\\Login\\frmLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T13:07:08.635Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmAddUpdatePatient.cs",
-              "DocumentMoniker": "C:\\Wael Projects C#\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\Clinic Management System\\Clinic Management System\\Patients\\frmAddUpdatePatient.cs",
-              "RelativeDocumentMoniker": "Clinic Management System\\Patients\\frmAddUpdatePatient.cs",
-              "ToolTip": "C:\\Wael Projects C#\\\u0645\u0634\u0627\u0631\u064A\u0639 \u0641\u064A \u0627\u0644\u0627\u0646\u062A\u0638\u0627\u0631\\Clinic Management System\\Clinic Management System\\Patients\\frmAddUpdatePatient.cs",
-              "RelativeToolTip": "Clinic Management System\\Patients\\frmAddUpdatePatient.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAiwGcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T12:17:30.418Z"
+              "WhenOpened": "2025-10-15T16:56:08.177Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

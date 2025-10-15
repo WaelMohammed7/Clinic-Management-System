@@ -36,7 +36,7 @@ namespace Clinic_Management_System.Patients
 
         private void _ResetDefualtValues()
         {
-            if(_Mode == enMode.AddNew)
+            if (_Mode == enMode.AddNew)
             {
                 lblTitle.Text = "Add New Patient";
                 _Patients = new clsPatients();
@@ -46,7 +46,7 @@ namespace Clinic_Management_System.Patients
                 lblTitle.Text = "Update Patient";
             }
 
-            if(rbMale.Checked)
+            if (rbMale.Checked)
             {
                 pbPatientImage.Image = Resources.Male_512;
             }
@@ -68,13 +68,13 @@ namespace Clinic_Management_System.Patients
 
         private void _LoadData()
         {
-            if(_Mode != enMode.Update)
+            if (_Mode != enMode.Update)
             {
                 return;
             }
             else
             {
-               
+
             }
         }
 
@@ -99,6 +99,34 @@ namespace Clinic_Management_System.Patients
                 MessageBox.Show("Some fileds are not valide!, put the mouse over the red icon(s) to see the erro", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
 
+            }
+
+            _Patients.FirstName = txtFirstName.Text;
+            _Patients.LastName = txtLastName.Text;
+            _Patients.Phone = txtPhone.Text;
+            _Patients.Email = txtEmail.Text;
+            _Patients.Address = txtAddress.Text;
+            _Patients.MedicalNotes = txtMedicalNotes.Text;
+            _Patients.DateOfBirth = dtpDateOfBirth.Value;
+            if (rbMale.Checked)
+                _Patients.Gendor = 0;
+            else
+                _Patients.Gendor = 1;
+            //_Patients.ImagePath = 
+
+            if (_Patients.Save())
+            {
+                txtPatientID.Text = _Patients.PatientID.ToString();
+
+                //change form mode to update.
+                _Mode = enMode.Update;
+                lblTitle.Text = "Update Patient";
+
+                MessageBox.Show("Data Saved Successfully.", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Error: Data Is not Saved Successfully.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
 

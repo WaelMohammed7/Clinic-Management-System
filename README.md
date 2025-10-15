@@ -2,6 +2,8 @@
 
 **Status:** 🚧 _Under Development_
 
+![Clinic Management System Main Screen](screenshots/image4frmMainScreen.jpg)
+
 Multi-user LAN-based Clinic Management System built with **C# WinForms** and **SQL Server Express**.  
 Includes role-based access, patient & appointment management, and Excel reporting.  
 This project is a **real-world client-server desktop application** designed to simulate professional development experience.
