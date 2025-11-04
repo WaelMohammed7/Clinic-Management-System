@@ -133,28 +133,29 @@
             this.editPatientToolStripMenuItem,
             this.deletePatientToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(198, 100);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(249, 133);
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // showPatientToolStripMenuItem
             // 
             this.showPatientToolStripMenuItem.Image = global::Clinic_Management_System.Properties.Resources.PersonDetails_32;
             this.showPatientToolStripMenuItem.Name = "showPatientToolStripMenuItem";
-            this.showPatientToolStripMenuItem.Size = new System.Drawing.Size(197, 32);
+            this.showPatientToolStripMenuItem.Size = new System.Drawing.Size(248, 32);
             this.showPatientToolStripMenuItem.Text = "Show Patient";
             // 
             // editPatientToolStripMenuItem
             // 
             this.editPatientToolStripMenuItem.Image = global::Clinic_Management_System.Properties.Resources.edit;
             this.editPatientToolStripMenuItem.Name = "editPatientToolStripMenuItem";
-            this.editPatientToolStripMenuItem.Size = new System.Drawing.Size(197, 32);
+            this.editPatientToolStripMenuItem.Size = new System.Drawing.Size(248, 32);
             this.editPatientToolStripMenuItem.Text = "Edit Patient";
+            this.editPatientToolStripMenuItem.Click += new System.EventHandler(this.editPatientToolStripMenuItem_Click);
             // 
             // deletePatientToolStripMenuItem
             // 
             this.deletePatientToolStripMenuItem.Image = global::Clinic_Management_System.Properties.Resources.Delete_32_2;
             this.deletePatientToolStripMenuItem.Name = "deletePatientToolStripMenuItem";
-            this.deletePatientToolStripMenuItem.Size = new System.Drawing.Size(197, 32);
+            this.deletePatientToolStripMenuItem.Size = new System.Drawing.Size(248, 32);
             this.deletePatientToolStripMenuItem.Text = "Delete Patient";
             this.deletePatientToolStripMenuItem.Click += new System.EventHandler(this.deletePatientToolStripMenuItem_Click);
             // 

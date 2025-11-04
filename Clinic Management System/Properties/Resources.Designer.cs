@@ -213,6 +213,16 @@ namespace Clinic_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Flux_Dev_A_modern_professional_desktop_application_splash_scre_0 {
+            get {
+                object obj = ResourceManager.GetObject("Flux_Dev_A_modern_professional_desktop_application_splash_scre_0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap image4frmMainScreen {
             get {
                 object obj = ResourceManager.GetObject("image4frmMainScreen", resourceCulture);

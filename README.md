@@ -1,97 +1,127 @@
 # 🏥 Clinic Management System
 
-**Status:** 🚧 _Under Development_
+**Status:** 🚧 _Under Active Development_
 
-![Clinic Management System Main Screen](screenshots/image4frmMainScreen.png)
+![Clinic Management System Dashboard](screenshots/ClinicManagementSystemDashboard.png)
 
-Multi-user LAN-based Clinic Management System built with **C# WinForms** and **SQL Server Express**.  
-Includes role-based access, patient & appointment management, and Excel reporting.  
-This project is a **real-world client-server desktop application** designed to simulate professional development experience.
+A high-fidelity, **Multi-user LAN-based Clinic Management System** built with **C# WinForms** and **SQL Server Express**.  
+This project combines database design, user authentication, appointment scheduling, billing, and reporting — all within a professional **Client–Server architecture**.
 
 ---
 
 ## 🎯 Project Overview
 
-The **Clinic Management System** is a desktop application designed to help clinics manage daily operations efficiently.  
-It supports multiple users connected through a **local network (LAN)** and provides secure access control based on user roles.
+The **Clinic Management System** is a **desktop application** designed to simulate a real-world commercial environment for small medical clinics.  
+It supports **multiple users over LAN**, with secure **Role-Based Access Control (RBAC)** and structured workflows for managing patients, doctors, services, appointments, and payments.
 
 ---
 
 ## 🧩 Technologies Used
 
-- **Programming Language:** C# (.NET Framework)
-- **Database:** SQL Server Express
-- **UI Framework:** Windows Forms (WinForms)
-- **Architecture:** 3-Tier (Presentation, Business, Data Access Layers)
-- **Reporting:** Microsoft Excel (via Export to Excel)
+| Component        | Technology                                                |
+| ---------------- | --------------------------------------------------------- |
+| **Language**     | C# (.NET Framework)                                       |
+| **Database**     | SQL Server Express (or SQLite for testing)                |
+| **UI Framework** | Windows Forms (WinForms) s                                |
+| **Architecture** | 3-Tier (Presentation, Business Logic, Data Access Layers) |
+| **Reporting**    | ClosedXML (Excel Export)                                  |
+| **Connectivity** | LAN-based Client–Server Model                             |
 
 ---
 
 ## 🏗️ System Architecture
 
-- **Server:** Hosts the central SQL Server database.
-- **Clients:** Run the desktop application and connect to the server through LAN.
-- **Connection Type:** Remote SQL connection (supports Integrated Security).
+- **Server:** Hosts the central SQL Server database with remote access enabled.
+- **Clients:** Run the C# WinForms application, connecting through LAN.
+- **Security:** Built-in authentication and **Role-Based Authorization** to control access and UI visibility.
 
 ---
 
 ## 📋 Database Design
 
-The system uses four main tables:
+A normalized relational design with **13 core tables** ensuring efficiency, accuracy, and scalability.
 
-| Table            | Description                                                   |
-| ---------------- | ------------------------------------------------------------- |
-| **Users**        | Stores user credentials and roles (Admin, Receptionist, etc.) |
-| **Patients**     | Manages patient information such as name, contact, and notes  |
-| **Services**     | Lists available clinic services and their prices              |
-| **Appointments** | Handles scheduling and tracking of patient appointments       |
+| Category                 | Table Name                            | Description                                                |
+| ------------------------ | ------------------------------------- | ---------------------------------------------------------- |
+| **Identity & Access**    | Peoples, Users, RoleIs                | Manage personal data, logins, and permissions.             |
+| **Medical**              | Doctors, Departments, Specializations | Represent the medical staff and organizational structure.  |
+| **Operations**           | Appointments, AppointmentStatuses     | Central scheduling and status tracking.                    |
+| **Finance**              | Payments                              | Manage payment history and methods.                        |
+| **Services**             | Services, AppointmentServices         | Define offered procedures and their usage per appointment. |
+| **Inventory (optional)** | Inventories, AppointmentInventories   | Track materials and consumables per visit.                 |
+
+---
+
+## 🔐 Security & Login Module
+
+- **Login Screen:** Authenticates users through secure SQL connection.
+- **User Management:** Admin-only form to add/edit users and assign roles.
+- **Role-Based Permissions:** Dynamically shows or hides UI components according to user role.
+
+---
+
+## ⚙️ Core Management Modules (CRUD)
+
+- **Patient Management:** Add, edit, delete, and search patient records.
+- **Service Management:** Maintain services list and pricing.
+- **Inventory Management:** Manage stock items and prices.
+- **Doctor & Department Management:** Assign specializations and organize staff.
+
+---
+
+## 📅 Appointment & Billing Module
+
+- **Appointment Scheduling:**  
+  Book appointments by selecting a patient, doctor, date, and time.  
+  Update appointment statuses (Scheduled, In-Progress, Completed, etc.).
+
+- **Billing System:**  
+  Link appointments with services and consumed materials.  
+  Automatically calculate and record payment transactions.
+
+---
+
+## 📊 Reporting Module
+
+- **Reports:**
+  - Daily Appointments Report
+  - Revenue Summary Report
+- **Export:**  
+  Export any report to Excel using **ClosedXML**.
 
 ---
 
 ## 🗓️ Development Roadmap
 
-**Week 1:**
-
-- Install SQL Server Express and configure remote access
-- Create main database and 4 tables
-- Build login and user management forms
-
-**Weeks 2–3:**
-
-- Develop patient and service management modules (CRUD operations)
-- Implement role-based access control
-
-**Weeks 4–5:**
-
-- Create appointment scheduling with calendar view
-- Build simple reporting module
-
-**Week 6:**
-
-- Add daily reports and Excel export
-- Test application across multiple devices on LAN
+| Week    | Focus                | Tasks                                                         |
+| ------- | -------------------- | ------------------------------------------------------------- |
+| **1**   | Setup                | Design database, configure SQL Server (LAN), build login form |
+| **2–3** | CRUD Modules         | Patients, Services, Users, and Roles                          |
+| **4–5** | Scheduling & Billing | Appointments and payment integration                          |
+| **6**   | Reports & Testing    | Excel reports, LAN testing, debugging                         |
 
 ---
 
-## 🧠 Skills Developed
+## 🧠 Core Skills Developed
 
-- Building full desktop applications with **C# WinForms**
-- Designing and managing databases using **SQL Server**
-- Implementing **multi-user systems** and **role-based permissions**
-- Working with **LAN-based client-server** applications
-- Creating and exporting professional reports
+- Database Design (One-to-One & Many-to-Many relationships).
+- Network Programming (Client–Server over LAN).
+- Role-Based Access Control (RBAC).
+- ADO.NET / ORM-based Data Handling.
+- Excel Reporting (ClosedXML).
+- 3-Tier Architecture Implementation.
 
 ---
 
 ## 🖼️ Screenshots
 
-| Login Screen                           | Users                                     |
+| Login Screen                           | User Management                           |
 | -------------------------------------- | ----------------------------------------- |
 | ![Login](screenshots/image1_login.png) | ![Users](screenshots/image2_userform.png) |
 
-| Patient Form                                    | Login Form                             |
-| ----------------------------------------------- | -------------------------------------- |
-| ![Patients](screenshots/image3_patientform.png) | ![Login](screenshots/image1_login.png) |
+| Patient Management                              | Main Dashboard                                                |
+| ----------------------------------------------- | ------------------------------------------------------------- |
+| ![Patients](screenshots/image3_patientform.png) | ![Dashboard](screenshots/ClinicManagementSystemDashboard.png) |
 
 ---
 
@@ -102,14 +132,9 @@ Focus areas: _C#, .NET Framework, ADO.NET, 3-Tier Architecture, and SQL Server._
 
 ---
 
-## ⚠️ Note
-
-> This project is currently under active development.  
-> Some modules may not be complete or fully tested yet.
-
----
-
 ## 📄 License
 
 This project is for **educational and training purposes**.  
 You are free to explore, learn, and adapt ideas — please credit the original developer.
+
+---

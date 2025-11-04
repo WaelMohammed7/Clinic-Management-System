@@ -214,5 +214,8 @@
   <ItemGroup>
     <None Include="Resources\People 64.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flux_Dev_A_modern_professional_desktop_application_splash_scre_0.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

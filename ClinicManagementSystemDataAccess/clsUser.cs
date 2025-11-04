@@ -47,7 +47,7 @@ namespace ClinicManagementSystemDataAccess
             
         }
 
-        public static bool GetUserInfoByUsernameAndPassword(string UserName, string Password, ref int UserId, /*ref byte Role,*/ ref byte IsActive)
+        public static bool GetUserInfoByUsernameAndPassword(string User`Name, string Password, ref int UserId, ref byte IsActive, ref byte Role)
         {
             bool IsFound = false;
             try
@@ -91,6 +91,8 @@ namespace ClinicManagementSystemDataAccess
 
             return IsFound;
         }
+
+        public static int AddUser(string UserName, string Password, ) 
     }
 
 

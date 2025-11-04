@@ -45,10 +45,7 @@ namespace Clinic_Management_System
            
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+        
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -190,6 +187,11 @@ namespace Clinic_Management_System
                 _dtAllUsers.DefaultView.RowFilter = string.Format("[{0}] LIKE '{1}%'", FilterColumn, txtFilterValue.Text.Trim());
             //dgvUsers.DataSource = _dtAllUsers;
             blRecordsCount.Text = dgvUsers.Rows.Count.ToString();
+        }
+
+        private void gbutClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

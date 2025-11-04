@@ -50,7 +50,7 @@
             this.usersToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1587, 40);
+            this.menuStrip1.Size = new System.Drawing.Size(1587, 42);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -58,11 +58,11 @@
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::Clinic_Management_System.Properties.Resources.image4frmMainScreen;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 40);
+            this.pictureBox1.Image = global::Clinic_Management_System.Properties.Resources.Flux_Dev_A_modern_professional_desktop_application_splash_scre_0;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 42);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1587, 590);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.Size = new System.Drawing.Size(1587, 588);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 

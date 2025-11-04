@@ -30,37 +30,37 @@
         {
             this.lblTitle = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.dtpDateOfBirth = new System.Windows.Forms.DateTimePicker();
             this.llRemoveImage = new System.Windows.Forms.LinkLabel();
             this.llSetImage = new System.Windows.Forms.LinkLabel();
             this.txtMedicalNotes = new System.Windows.Forms.TextBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.pbPatientImage = new System.Windows.Forms.PictureBox();
             this.txtAddress = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtPhone = new System.Windows.Forms.TextBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.rbFemale = new System.Windows.Forms.RadioButton();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.rbMale = new System.Windows.Forms.RadioButton();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtLastName = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.txtFirstName = new System.Windows.Forms.TextBox();
-            this.dtpDateOfBirth = new System.Windows.Forms.DateTimePicker();
-            this.label1 = new System.Windows.Forms.Label();
             this.gbutClose = new Guna.UI2.WinForms.Guna2GradientButton();
             this.gbutSave = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pbPatientImage = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
             this.txtPatientID = new System.Windows.Forms.Label();
@@ -123,14 +123,46 @@
             this.panel1.ForeColor = System.Drawing.Color.White;
             this.panel1.Location = new System.Drawing.Point(12, 93);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(861, 317);
+            this.panel1.Size = new System.Drawing.Size(861, 342);
             this.panel1.TabIndex = 4;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.label1.Location = new System.Drawing.Point(437, 114);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(145, 28);
+            this.label1.TabIndex = 100;
+            this.label1.Text = "Date Of Birth:";
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::Clinic_Management_System.Properties.Resources.Calendar_32;
+            this.pictureBox7.Location = new System.Drawing.Point(588, 118);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(31, 26);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 99;
+            this.pictureBox7.TabStop = false;
+            // 
+            // dtpDateOfBirth
+            // 
+            this.dtpDateOfBirth.CustomFormat = "dd/M/yyyy";
+            this.dtpDateOfBirth.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpDateOfBirth.Location = new System.Drawing.Point(649, 117);
+            this.dtpDateOfBirth.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
+            this.dtpDateOfBirth.Name = "dtpDateOfBirth";
+            this.dtpDateOfBirth.Size = new System.Drawing.Size(182, 29);
+            this.dtpDateOfBirth.TabIndex = 97;
+            this.dtpDateOfBirth.Value = new System.DateTime(2000, 12, 31, 0, 0, 0, 0);
             // 
             // llRemoveImage
             // 
             this.llRemoveImage.AutoSize = true;
             this.llRemoveImage.Font = new System.Drawing.Font("Segoe UI Black", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.llRemoveImage.Location = new System.Drawing.Point(676, 283);
+            this.llRemoveImage.Location = new System.Drawing.Point(697, 311);
             this.llRemoveImage.Name = "llRemoveImage";
             this.llRemoveImage.Size = new System.Drawing.Size(77, 21);
             this.llRemoveImage.TabIndex = 25;
@@ -141,7 +173,7 @@
             // 
             this.llSetImage.AutoSize = true;
             this.llSetImage.Font = new System.Drawing.Font("Segoe UI Black", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.llSetImage.Location = new System.Drawing.Point(676, 262);
+            this.llSetImage.Location = new System.Drawing.Point(697, 290);
             this.llSetImage.Name = "llSetImage";
             this.llSetImage.Size = new System.Drawing.Size(88, 21);
             this.llSetImage.TabIndex = 24;
@@ -151,28 +183,48 @@
             // txtMedicalNotes
             // 
             this.txtMedicalNotes.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMedicalNotes.ForeColor = System.Drawing.Color.White;
-            this.txtMedicalNotes.Location = new System.Drawing.Point(234, 133);
+            this.txtMedicalNotes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtMedicalNotes.Location = new System.Drawing.Point(234, 162);
             this.txtMedicalNotes.Name = "txtMedicalNotes";
             this.txtMedicalNotes.Size = new System.Drawing.Size(405, 29);
             this.txtMedicalNotes.TabIndex = 23;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::Clinic_Management_System.Properties.Resources.stethoscope;
+            this.pictureBox8.Location = new System.Drawing.Point(176, 162);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(31, 26);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 22;
+            this.pictureBox8.TabStop = false;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.label8.Location = new System.Drawing.Point(12, 133);
+            this.label8.Location = new System.Drawing.Point(12, 162);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(154, 28);
             this.label8.TabIndex = 21;
             this.label8.Text = "Medical Notes:";
             // 
+            // pbPatientImage
+            // 
+            this.pbPatientImage.Image = global::Clinic_Management_System.Properties.Resources.Male_5121;
+            this.pbPatientImage.Location = new System.Drawing.Point(680, 152);
+            this.pbPatientImage.Name = "pbPatientImage";
+            this.pbPatientImage.Size = new System.Drawing.Size(114, 126);
+            this.pbPatientImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbPatientImage.TabIndex = 20;
+            this.pbPatientImage.TabStop = false;
+            // 
             // txtAddress
             // 
             this.txtAddress.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAddress.ForeColor = System.Drawing.Color.White;
-            this.txtAddress.Location = new System.Drawing.Point(234, 170);
+            this.txtAddress.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtAddress.Location = new System.Drawing.Point(234, 205);
             this.txtAddress.Multiline = true;
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(405, 70);
@@ -181,8 +233,8 @@
             // txtEmail
             // 
             this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.ForeColor = System.Drawing.Color.White;
-            this.txtEmail.Location = new System.Drawing.Point(234, 98);
+            this.txtEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtEmail.Location = new System.Drawing.Point(234, 117);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(182, 29);
             this.txtEmail.TabIndex = 18;
@@ -190,18 +242,28 @@
             // txtPhone
             // 
             this.txtPhone.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPhone.ForeColor = System.Drawing.Color.White;
-            this.txtPhone.Location = new System.Drawing.Point(663, 61);
+            this.txtPhone.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtPhone.Location = new System.Drawing.Point(647, 71);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(182, 29);
             this.txtPhone.TabIndex = 17;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Clinic_Management_System.Properties.Resources.call_321;
+            this.pictureBox6.Location = new System.Drawing.Point(586, 75);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(31, 26);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 16;
+            this.pictureBox6.TabStop = false;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.label7.Location = new System.Drawing.Point(520, 61);
+            this.label7.Location = new System.Drawing.Point(504, 71);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(76, 28);
             this.label7.TabIndex = 15;
@@ -212,7 +274,7 @@
             this.rbFemale.AutoSize = true;
             this.rbFemale.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbFemale.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.rbFemale.Location = new System.Drawing.Point(388, 63);
+            this.rbFemale.Location = new System.Drawing.Point(387, 75);
             this.rbFemale.Name = "rbFemale";
             this.rbFemale.Size = new System.Drawing.Size(90, 25);
             this.rbFemale.TabIndex = 14;
@@ -220,12 +282,22 @@
             this.rbFemale.Text = "Female";
             this.rbFemale.UseVisualStyleBackColor = true;
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Clinic_Management_System.Properties.Resources.Female_512;
+            this.pictureBox5.Location = new System.Drawing.Point(333, 76);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(31, 26);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 13;
+            this.pictureBox5.TabStop = false;
+            // 
             // rbMale
             // 
             this.rbMale.AutoSize = true;
             this.rbMale.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbMale.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.rbMale.Location = new System.Drawing.Point(234, 67);
+            this.rbMale.Location = new System.Drawing.Point(233, 79);
             this.rbMale.Name = "rbMale";
             this.rbMale.Size = new System.Drawing.Size(73, 25);
             this.rbMale.TabIndex = 12;
@@ -233,12 +305,42 @@
             this.rbMale.Text = "Male";
             this.rbMale.UseVisualStyleBackColor = true;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Clinic_Management_System.Properties.Resources.Address_321;
+            this.pictureBox4.Location = new System.Drawing.Point(176, 204);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(31, 26);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 11;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Clinic_Management_System.Properties.Resources.Email_321;
+            this.pictureBox3.Location = new System.Drawing.Point(176, 117);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(31, 26);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 10;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Clinic_Management_System.Properties.Resources.Man_3211;
+            this.pictureBox2.Location = new System.Drawing.Point(175, 76);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(31, 26);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 9;
+            this.pictureBox2.TabStop = false;
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.label6.Location = new System.Drawing.Point(12, 170);
+            this.label6.Location = new System.Drawing.Point(12, 205);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(92, 28);
             this.label6.TabIndex = 8;
@@ -249,7 +351,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.label5.Location = new System.Drawing.Point(12, 99);
+            this.label5.Location = new System.Drawing.Point(12, 118);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(69, 28);
             this.label5.TabIndex = 7;
@@ -260,18 +362,28 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.label4.Location = new System.Drawing.Point(12, 65);
+            this.label4.Location = new System.Drawing.Point(11, 77);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(87, 28);
             this.label4.TabIndex = 6;
             this.label4.Text = "Gendor:";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Clinic_Management_System.Properties.Resources.Man_321;
+            this.pictureBox1.Location = new System.Drawing.Point(176, 34);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(31, 26);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.label3.Location = new System.Drawing.Point(12, 29);
+            this.label3.Location = new System.Drawing.Point(12, 35);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(73, 28);
             this.label3.TabIndex = 4;
@@ -282,7 +394,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.label2.Location = new System.Drawing.Point(504, 4);
+            this.label2.Location = new System.Drawing.Point(504, 10);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 21);
             this.label2.TabIndex = 3;
@@ -291,8 +403,8 @@
             // txtLastName
             // 
             this.txtLastName.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLastName.ForeColor = System.Drawing.Color.White;
-            this.txtLastName.Location = new System.Drawing.Point(442, 28);
+            this.txtLastName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtLastName.Location = new System.Drawing.Point(442, 34);
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.Size = new System.Drawing.Size(182, 29);
             this.txtLastName.TabIndex = 2;
@@ -302,7 +414,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.label9.Location = new System.Drawing.Point(293, 4);
+            this.label9.Location = new System.Drawing.Point(293, 10);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(42, 21);
             this.label9.TabIndex = 0;
@@ -311,46 +423,27 @@
             // txtFirstName
             // 
             this.txtFirstName.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFirstName.ForeColor = System.Drawing.Color.White;
-            this.txtFirstName.Location = new System.Drawing.Point(234, 28);
+            this.txtFirstName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtFirstName.Location = new System.Drawing.Point(234, 34);
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.Size = new System.Drawing.Size(182, 29);
             this.txtFirstName.TabIndex = 1;
             // 
-            // dtpDateOfBirth
-            // 
-            this.dtpDateOfBirth.CustomFormat = "dd/M/yyyy";
-            this.dtpDateOfBirth.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpDateOfBirth.Location = new System.Drawing.Point(663, 98);
-            this.dtpDateOfBirth.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
-            this.dtpDateOfBirth.Name = "dtpDateOfBirth";
-            this.dtpDateOfBirth.Size = new System.Drawing.Size(182, 29);
-            this.dtpDateOfBirth.TabIndex = 97;
-            this.dtpDateOfBirth.Value = new System.DateTime(2000, 12, 31, 0, 0, 0, 0);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.label1.Location = new System.Drawing.Point(437, 95);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(145, 28);
-            this.label1.TabIndex = 100;
-            this.label1.Text = "Date Of Birth:";
-            // 
             // gbutClose
             // 
             this.gbutClose.AutoRoundedCorners = true;
+            this.gbutClose.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(71)))), ((int)(((byte)(184)))));
             this.gbutClose.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.gbutClose.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.gbutClose.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.gbutClose.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.gbutClose.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.gbutClose.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbutClose.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(71)))), ((int)(((byte)(184)))));
+            this.gbutClose.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(71)))), ((int)(((byte)(184)))));
+            this.gbutClose.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.gbutClose.ForeColor = System.Drawing.Color.White;
             this.gbutClose.Image = global::Clinic_Management_System.Properties.Resources.cross_32;
-            this.gbutClose.Location = new System.Drawing.Point(29, 423);
+            this.gbutClose.Location = new System.Drawing.Point(606, 450);
             this.gbutClose.Name = "gbutClose";
             this.gbutClose.Size = new System.Drawing.Size(126, 36);
             this.gbutClose.TabIndex = 25;
@@ -360,110 +453,23 @@
             // gbutSave
             // 
             this.gbutSave.AutoRoundedCorners = true;
+            this.gbutSave.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(71)))), ((int)(((byte)(184)))));
             this.gbutSave.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.gbutSave.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.gbutSave.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.gbutSave.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.gbutSave.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.gbutSave.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(71)))), ((int)(((byte)(184)))));
+            this.gbutSave.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(71)))), ((int)(((byte)(184)))));
             this.gbutSave.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.gbutSave.ForeColor = System.Drawing.Color.White;
             this.gbutSave.Image = global::Clinic_Management_System.Properties.Resources.Save_32;
-            this.gbutSave.Location = new System.Drawing.Point(731, 423);
+            this.gbutSave.Location = new System.Drawing.Point(747, 450);
             this.gbutSave.Name = "gbutSave";
             this.gbutSave.Size = new System.Drawing.Size(126, 36);
             this.gbutSave.TabIndex = 24;
             this.gbutSave.Text = "Save";
             this.gbutSave.Click += new System.EventHandler(this.gbutSave_Click);
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::Clinic_Management_System.Properties.Resources.Calendar_32;
-            this.pictureBox7.Location = new System.Drawing.Point(602, 99);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(31, 26);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 99;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::Clinic_Management_System.Properties.Resources.stethoscope;
-            this.pictureBox8.Location = new System.Drawing.Point(176, 133);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(31, 26);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 22;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pbPatientImage
-            // 
-            this.pbPatientImage.Image = global::Clinic_Management_System.Properties.Resources.Male_5121;
-            this.pbPatientImage.Location = new System.Drawing.Point(663, 133);
-            this.pbPatientImage.Name = "pbPatientImage";
-            this.pbPatientImage.Size = new System.Drawing.Size(114, 126);
-            this.pbPatientImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbPatientImage.TabIndex = 20;
-            this.pbPatientImage.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::Clinic_Management_System.Properties.Resources.call_321;
-            this.pictureBox6.Location = new System.Drawing.Point(602, 61);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(31, 26);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 16;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::Clinic_Management_System.Properties.Resources.Female_512;
-            this.pictureBox5.Location = new System.Drawing.Point(333, 58);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(31, 26);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 13;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Clinic_Management_System.Properties.Resources.Address_321;
-            this.pictureBox4.Location = new System.Drawing.Point(176, 169);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(31, 26);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 11;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Clinic_Management_System.Properties.Resources.Email_321;
-            this.pictureBox3.Location = new System.Drawing.Point(176, 98);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(31, 26);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 10;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Clinic_Management_System.Properties.Resources.Man_3211;
-            this.pictureBox2.Location = new System.Drawing.Point(176, 64);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(31, 26);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 9;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Clinic_Management_System.Properties.Resources.Man_321;
-            this.pictureBox1.Location = new System.Drawing.Point(176, 28);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(31, 26);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
             // 
             // pictureBox9
             // 
@@ -502,7 +508,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(899, 468);
+            this.ClientSize = new System.Drawing.Size(899, 498);
             this.Controls.Add(this.txtPatientID);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.gbutClose);

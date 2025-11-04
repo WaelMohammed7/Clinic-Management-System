@@ -81,49 +81,63 @@ namespace ClinicManagementSystemDataAccess
         {
             int PatientID = -1;
 
-            try
+
+            using (SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
             {
-                using (SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString))
+                string Quer = "SP_AddNewPatient";
+                using (SqlCommand command = new SqlCommand(Quer, connection))
                 {
-                    string Quer = "SP_AddNewPatient";
-                    using (SqlCommand command = new SqlCommand(Quer, connection))
+                    command.CommandType = CommandType.StoredProcedure;
+                    SqlParameter sqlParameter = new SqlParameter("@NewPatientID", SqlDbType.Int)
                     {
-                        command.Parameters.AddWithValue(@"FirstName", FirstName);
-                        command.Parameters.AddWithValue(@"LastName", LastName);
+                        Direction = ParameterDirection.Output
+                    };
 
-                        command.Parameters.AddWithValue(@"Phone", Phone);
+                    
+                    command.Parameters.AddWithValue(@"FirstName", FirstName);
+                    command.Parameters.AddWithValue(@"LastName", LastName);
 
-                        if (Email != "" && Email != null)
-                            command.Parameters.AddWithValue(@"Email", Email);
-                        else
-                            command.Parameters.AddWithValue(@"Email", System.DBNull.Value);
+                    command.Parameters.AddWithValue(@"Phone", Phone);
 
-                        command.Parameters.AddWithValue(@"Address", Address);
+                    if (Email != "" && Email != null)
+                        command.Parameters.AddWithValue(@"Email", Email);
+                    else
+                        command.Parameters.AddWithValue(@"Email", System.DBNull.Value);
 
-                        command.Parameters.AddWithValue(@"MedicalNotes", MedicalNotes);
+                    command.Parameters.AddWithValue(@"Address", Address);
 
-                        command.Parameters.AddWithValue(@"DateOfBirth", DateOfBirth);
-                        command.Parameters.AddWithValue(@"Gendor", Gendor);
+                    command.Parameters.AddWithValue(@"MedicalNotes", MedicalNotes);
 
-                        if (ImagePath != "" && ImagePath != null)
-                            command.Parameters.AddWithValue(@"ImagePath", ImagePath);
-                        else
-                            command.Parameters.AddWithValue(@"ImagePath", System.DBNull.Value);
+                    command.Parameters.AddWithValue(@"DateOfBirth", DateOfBirth);
+                    command.Parameters.AddWithValue(@"Gendor", Gendor);
 
+                    if (ImagePath != "" && ImagePath != null)
+                        command.Parameters.AddWithValue(@"ImagePath", ImagePath);
+                    else
+                        command.Parameters.AddWithValue(@"ImagePath", System.DBNull.Value);
+
+                    command.Parameters.Add(sqlParameter);
+
+                    try
+                    {
                         connection.Open();
-                        object result = command.ExecuteScalar();
-                        if (result != null && int.TryParse(result.ToString(), out int insertedID))
+                        command.ExecuteNonQuery();
+                        if(sqlParameter.Value != DBNull.Value)
                         {
-                            PatientID = insertedID;
+                            PatientID = Convert.ToInt32(sqlParameter.Value);
                         }
-
+                        
                     }
+
+                    catch (Exception ex)
+                    {
+                        clsclsEventLog.LogOrCreateEventSoures(ex.Message);
+                    }
+
                 }
+
             }
-            catch (Exception ex)
-            {
-                clsclsEventLog.LogOrCreateEventSoures(ex.Message);
-            }
+
 
             return PatientID;
         }

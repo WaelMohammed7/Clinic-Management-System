@@ -164,8 +164,15 @@ namespace Clinic_Management_System
         private void picAddPatient_Click(object sender, EventArgs e)
         {
             frmAddUpdatePatient frm = new frmAddUpdatePatient();
-            frm.Show();
-            this.Close();
+            frm.ShowDialog();
+            _RefreshPeoplList();
+
+
+        }
+
+        private void editPatientToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
