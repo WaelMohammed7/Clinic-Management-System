@@ -22,7 +22,7 @@ It supports **multiple users over LAN**, with secure **Role-Based Access Control
 | ---------------- | --------------------------------------------------------- |
 | **Language**     | C# (.NET Framework)                                       |
 | **Database**     | SQL Server Express (or SQLite for testing)                |
-| **UI Framework** | Windows Forms (WinForms) s                                |
+| **UI Framework** | Windows Forms (WinForms)                                  |
 | **Architecture** | 3-Tier (Presentation, Business Logic, Data Access Layers) |
 | **Reporting**    | ClosedXML (Excel Export)                                  |
 | **Connectivity** | LAN-based Client–Server Model                             |
@@ -84,8 +84,10 @@ A normalized relational design with **13 core tables** ensuring efficiency, accu
 ## 📊 Reporting Module
 
 - **Reports:**
+
   - Daily Appointments Report
   - Revenue Summary Report
+
 - **Export:**  
   Export any report to Excel using **ClosedXML**.
 
@@ -104,12 +106,12 @@ A normalized relational design with **13 core tables** ensuring efficiency, accu
 
 ## 🧠 Core Skills Developed
 
-- Database Design (One-to-One & Many-to-Many relationships).
-- Network Programming (Client–Server over LAN).
-- Role-Based Access Control (RBAC).
-- ADO.NET / ORM-based Data Handling.
-- Excel Reporting (ClosedXML).
-- 3-Tier Architecture Implementation.
+- Database Design (One-to-One & Many-to-Many relationships)
+- Network Programming (Client–Server over LAN)
+- Role-Based Access Control (RBAC)
+- ADO.NET / ORM-based Data Handling
+- Excel Reporting (ClosedXML)
+- 3-Tier Architecture Implementation
 
 ---
 
@@ -119,9 +121,9 @@ A normalized relational design with **13 core tables** ensuring efficiency, accu
 | -------------------------------------- | ----------------------------------------- |
 | ![Login](screenshots/image1_login.png) | ![Users](screenshots/image2_userform.png) |
 
-| Patient Management                              | Main Dashboard                                                |
-| ----------------------------------------------- | ------------------------------------------------------------- |
-| ![Patients](screenshots/image3_patientform.png) | ![Dashboard](screenshots/ClinicManagementSystemDashboard.png) |
+| Patient Management                              | Clinic Database                                     |
+| ----------------------------------------------- | --------------------------------------------------- |
+| ![Patients](screenshots/image3_patientform.png) | ![Database](screenshots/Clinic_Database_Schema.png) |
 
 ---
 
